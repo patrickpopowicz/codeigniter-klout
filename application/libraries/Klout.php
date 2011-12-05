@@ -152,8 +152,8 @@ class Klout {
 			curl_setopt($curl, CURLOPT_POST, $post);
 			curl_setopt($curl, CURLOPT_POSTFIELDS, array('users' => $users));	
 		}
-		$this->_response = curl_exec($curl)
-		$curl_close($curl);
+		$this->_response = curl_exec($curl);
+		curl_close($curl);
 		
 		return ($this->_response) ? $this->_response : FALSE;
 	}
