@@ -1,7 +1,7 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 /**
-* Klout API v8 library for CodeIgniter
+* Klout API v1 library for CodeIgniter
 *
 * @license Creative Commons Attribution 3.0 <http://creativecommons.org/licenses/by/3.0/>
 * @version 1.0

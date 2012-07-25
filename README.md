@@ -159,6 +159,11 @@ For more information on the API, see `http://developer.klout.com/`.
 
 #### Changes
 
+2012-07-24
+* Converted to Spark
+* Reorganized repo's file structure, added spark.info file and updated README.md
+* Fixed API version number
+
 2011-12-03
 
 * Initial
